@@ -25,9 +25,9 @@
 
 Here's an example how the data looks (*each class takes three-rows*):
 
-![](doc/img/fashion-mnist-sprite.png)
+<img src="https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png" >
 
-<img src="doc/img/embedding.gif" width="100%">
+<img src="https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/embedding.gif" width="100%">
 
 ## Why we made Fashion-MNIST
 
@@ -141,7 +141,7 @@ As one of the Machine Learning community's most popular datasets, MNIST has insp
 ## Benchmark
 We built an automatic benchmarking system based on `scikit-learn` that covers 129 classifiers (but no deep learning) with different parameters. [Find the results here](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/).
 
-<img src="doc/img/benchmark.gif" width="100%">
+<img src="https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/benchmark.gif" width="100%">
 
 You can reproduce the results by running `benchmark/runner.py`. We recommend building and deploying [this Dockerfile](Dockerfile). 
 
@@ -207,35 +207,16 @@ The table below collects the submitted benchmarks. Note that **we haven't yet te
 - [Xifeng Guo's implementation](https://github.com/XifengGuo/DEC-keras) of [Unsupervised Deep Embedding for Clustering Analysis (DEC)](http://proceedings.mlr.press/v48/xieb16.pdf)
 - [Leland McInnes's](https://github.com/lmcinnes) [Uniform Manifold Approximation and Projection (UMAP)](https://github.com/lmcinnes/umap)
 
-#### Video Tutorial
-*Machine Learning Meets Fashion* by Yufeng G @ Google Cloud
-
-[![Machine Learning Meets Fashion](doc/img/ae143b2d.png)](https://youtu.be/RJudqel8DVA)
-
-*Introduction to Kaggle Kernels* by [Yufeng G](https://twitter.com/yufengg) @ Google Cloud
-
-[![Introduction to Kaggle Kernels](doc/img/853c717e.png)](https://youtu.be/FloMHMOU5Bs)
-
-*动手学深度学习* by Mu Li @ Amazon AI
-
-[![MXNet/Gluon中文频道](doc/img/e9514ab1.png)](https://youtu.be/kGktiYF5upk)
-
-Apache MXNet으로 배워보는 딥러닝(Deep Learning) - 김무현 (AWS 솔루션즈아키텍트)
-
-[![Apache MXNet으로 배워보는 딥러닝(Deep Learning)](doc/img/dd83f448.png)](https://youtu.be/H66GDuLsGl4)
-
-
-
 ## Visualization
 
 ### t-SNE on Fashion-MNIST (left) and original MNIST (right) 
-<img src="doc/img/34d72c08.png" width="50%"><img src="doc/img/01e0c4be.png" width="50%">
+<img src="https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/34d72c08.png" width="50%"><img src="doc/img/01e0c4be.png" width="50%">
 
 ### PCA on Fashion-MNIST (left) and original MNIST (right) 
-<img src="doc/img/f04ba662.png" width="50%"><img src="doc/img/4433f0e1.png" width="50%">
+<img src="https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/01e0c4be.png" width="50%"><img src="doc/img/4433f0e1.png" width="50%">
 
 ### [UMAP](https://github.com/lmcinnes/umap) on Fashion-MNIST (left) and original MNIST (right) 
-<img src="doc/img/umap_example_fashion_mnist1.png" width="50%"><img src="doc/img/umap_example_mnist1.png" width="50%">
+<img src="https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/f04ba662.png" width="50%"><img src="doc/img/umap_example_mnist1.png" width="50%">
 
 
 ## Contributing
